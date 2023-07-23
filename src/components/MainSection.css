@@ -1,0 +1,94 @@
+.section-1{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../../public/asset/Netflix-Background.jpg");
+    height: 46.5rem;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 h1{
+    font-size: 3.8rem;
+    width:41%;
+    text-align: center;
+}
+.para-one{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.para-two{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.input-field{
+    width: 50%;
+    height: 5rem;
+    display: flex;
+}
+input{
+    width: 70%;
+    height: 4.8rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border: none;
+}
+button{
+    width: 30%;
+    height: 4.9rem;
+    background-color: red;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+}
+/* -----------------------------------------------------
+Responsive Coding
+----------------------------------------------------- */
+
+@media  screen and (max-width:750px) {
+
+    .section-1{
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url("../../public/asset/Netflix-Background.jpg");
+        height: 46.5rem;
+        width: 100%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        font-size: 40%;
+    }
+    .section-1 h1{
+        font-size: 3.8rem;
+        width:100%;
+        text-align: center;
+    }
+    .para-one{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .para-two{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+    .input-field{
+        width: 90%;
+        height: 5rem;
+        display: flex;
+    }
+    button{
+        width: 30%;
+        height: 4.9rem;
+        background-color: red;
+        font-size: 1rem;
+        color: white;
+        border: none;
+    }
+}

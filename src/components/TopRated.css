@@ -1,0 +1,13 @@
+.toprated-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.toprated-container p{
+    color: white;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-left: 3.2rem;
+    font-weight: 600;
+}

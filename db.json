@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "username": "Prakhar",
+      "email": "prak@gmail.com",
+      "contact": "9678453669",
+      "password": "prak@123",
+      "address": "23/M/7",
+      "pin": "208022",
+      "id": "1677766688551"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Plane",
+      "overview": "After a heroic job of successfully landing his storm-damaged aircraft in a war zone, a fearless pilot finds himself between the agendas of multiple militias planning to take the plane and its passengers hostage.",
+      "release_date": "2023-01-12",
+      "movie_image": "../asset/Plane.jpg",
+      "rating": "6.5/10",
+      "duration": "1h 47m",
+      "genre": "Action"
+    },
+    {
+      "id": 2,
+      "title": "Puss in Boots: The Last Wish",
+      "overview": "Puss in Boots discovers that his passion for adventure has taken its toll: He has burned through eight of his nine lives, leaving him with only one life left. Puss sets out on an epic journey to find the mythical Last Wish and restore his nine lives.",
+      "release_date": "2022-12-07",
+      "movie_image": "../asset/Puss-In-Boots.jpg",
+      "rating": "7.9/10",
+      "duration": "1h 40m",
+      "genre": "Comedy"
+    },
+    {
+      "id": 3,
+      "title": "Ant-Man and the Wasp: Quantumania",
+      "overview": "Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.",
+      "release_date": "2023-02-10",
+      "movie_image": "../asset/Antman.jpg",
+      "rating": "6.5/10",
+      "duration": "2h 05m",
+      "genre": "Adventure"
+    },
+    {
+      "id": 4,
+      "title": "Avatar: The Way of Water",
+      "overview": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
+      "release_date": "2022-12-14",
+      "movie_image": "../asset/Avatar.jpg",
+      "rating": "7.8/10",
+      "duration": "3h 12m",
+      "genre": "Action"
+    },
+    {
+      "id": 5,
+      "title": "Detective Knight: Independence",
+      "overview": "Detective James Knight 's last-minute assignment to the Independence Day shift turns into a race to stop an unbalanced ambulance EMT from imperiling the city's festivities. The misguided vigilante, playing cop with a stolen gun and uniform, has a bank vault full of reasons to put on his own fireworks show... one that will strike dangerously close to Knight's home.",
+      "release_date": "2023-01-20",
+      "movie_image": "../asset/Detective-Knight.jpg",
+      "rating": "3.6/10",
+      "duration": "1h 40m",
+      "genre": "Mystery"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+.signup-container{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../../public/asset/Netflix-Background.jpg");
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.logo-signup{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 15rem;
+    height: 10rem;
+}
+.SignIn-Heading{
+    width: 100%;
+    color: white;
+}
+.signupform-container{
+    width:50%;
+    margin-top: 8rem;
+    min-height: 51rem;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.signup-form{
+    width: 100%;
+    background: none;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+}
+.signup-fields{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.signup-fields input{
+    width: 100%;
+    height: 3rem;
+    border-radius: 2px;
+    background-color:rgb(97, 94, 94);
+}
+.signup-fields input::placeholder{
+    color: rgb(196, 186, 186)
+}
+.signup-btn{
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+.span-error{
+    color: white;
+    font-size: 1rem;
+}
+/* -----------------------------------------------------
+Responsive Coding
+----------------------------------------------------- */
+
+@media  screen and (max-width:750px) {
+
+    .signupform-container{
+        width:95%;
+        margin-top: 7rem;
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .signup-form{
+        width: 100%;
+        background: none;
+        padding: 2rem 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:2rem;
+    }
+}

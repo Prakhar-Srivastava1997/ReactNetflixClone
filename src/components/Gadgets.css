@@ -1,0 +1,60 @@
+.gad-container{
+    margin-top: .5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(17, 16, 16);
+}
+.gad-left{
+    width: 50%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 3rem;
+}
+.para{
+    font-size: 1.5rem;
+    width: 60%;
+}
+.gad-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* -----------------------------------------------------
+Responsive Coding
+----------------------------------------------------- */
+
+@media  screen and (max-width:750px) {
+    .gad-container{
+        margin-top: .5rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(17, 16, 16);
+        font-size: 50%;
+    }
+    .gad-left{
+        width: 100%;
+        text-align: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .gad-right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,53 @@
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../../public/asset/Plane.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.movie-brief{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.title{
+    font-size: 5rem;
+    color: white;
+    padding-left: 5rem;
+    padding-top: 8rem;
+}
+.overview{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 5rem;
+}
+.banner-btn-grp{
+    display: flex;
+    gap:1rem;
+    padding-left: 5rem;
+}
+.banner-btn{
+    width: 5rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+}
+/* ---------------------------------------------------
+Responsive Coding
+--------------------------------------------------- */
+
+@media screen and (max-width:750px) {
+
+    .movie-brief{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap:2rem;
+    }
+    
+}
